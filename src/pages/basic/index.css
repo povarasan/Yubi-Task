@@ -1,0 +1,46 @@
+.wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-cont {
+    width: 482px;
+    height:616px;
+    /* border: 1px solid green; */
+    background-color: #F1F4F7;
+    border-radius: 5px;
+}
+
+.input-container {
+    position: relative;
+  }
+  
+  label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #999;
+    pointer-events: none;
+    transition: all 0.2s ease;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.2s ease;
+  }
+  
+  input:focus {
+    outline: none;
+
+  }
+  
+  input:focus + label,
+  input:not(:placeholder-shown) + label {
+    top: -18px;
+    font-size: 12px;
+  }

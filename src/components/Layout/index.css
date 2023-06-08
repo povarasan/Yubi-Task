@@ -1,0 +1,12 @@
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+}
+
+.image-container > .image {
+   height: 100%;
+}
+
+.contant-wrapper {
+   width: calc(100% - 480px);
+}
